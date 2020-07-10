@@ -20,9 +20,10 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Who we are</a></li>
-							<li><a href="#two">What we do</a></li>
-							<li><a href="#three">Get in touch</a></li>
+							<li><a href="#one">Profile</a></li>
+							<li><a href="#two">Recent Research</a></li>
+							<li><a href="#three">Codes and Resources</a></li>
+							<li><a href="#four">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -35,22 +36,61 @@
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
 							<h1>Jens Hoeijmakers</h1>
-							<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
-							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+							<p>Astrophysicist at <a href="http://www.astro.lu.se">Lund Observatory</a>, Sweden</p>
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
 							</ul>
 						</div>
 					</section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
+					<!-- One -->
+						<section id="one" class="wrapper style3 fade-up">
+							<div class="inner">
+								<h2>Research Profile</h2>
+								<p>My research is focused on the observational study of exoplanet atmospheres, and the interpretation of these observations using models.
+									I use high-resolution ground-based echelle spectrographs to capture the faint spectroscopic signatures of chemical species present in the exoplanet atmosphere,
+									and use advanced, open-source chemical and radiate transfer models to infer atmospheric properties such as temperatures, chemical composition and processes, atmospheric dynamics (winds) and structure.
+									At present, spectroscopic characterization of exoplanet atmospheres is most effective for hot, inflated gas giants that transit their host stars. My recent research has centered on observations of
+									so-called Ultra-hot Jupiters, which feature rich optical absorption and emission spectra due to the presence of atomic metals in the atmosphere, such as iron, titanium, sodium and magnesium.
+									In some planets, we have even successfully observed the signatures of rare-Earth metals, such as scandium and yttrium.</p>
+
+									<p>Besides hunting for vaporised metals in extra-solar planets, I am involved in projects to place Earth-observing polarimeters aboard the ISS and
+									on the surface of the Moon to map and characterize polarimetric biosignatures of Earth as a living planet.</p>
+
+									<p>I obtained my Ph.D. in the Exoplanets group of <a href="https://home.strw.leidenuniv.nl/~snellen/">Ignas Snellen.</a> at <a href="">Leiden Observatory.</a>, and am employed at <a href="http://www.astro.lu.se">Lund Observatory</a> as of October 2020. I enjoy collaborative research projects, helping students or collaborators on their way through the wonderous worlds of exoplanet astronomy and astro-spectroscopy, and value a professional, inclusive, diverse and respectful work environment.</p>
+							</div>
+						</section>
+
+
+				<!-- Two -->
+					<section id="two" class="wrapper style2 spotlights">
 						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+							<a href="#" class="image"><img src="images/kelt9.jpg" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Metals in KELT-9 b</h2>
+									<p>KELT-9 b is the hottest exoplanet around a main-sequence star known to date. With a day-side temperature of over 4,000 K,
+										the chemistry in its atmosphere was expected to be unique, and is almost exlusively atomic. Observations obtained with the HARPS-N
+										spectrograph showed that the optical transmission spectrum of KELT-9 b is rich, allowing me and
+										my collaborators to identify a multitude of atoms and ions.</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+
+
+
+						<section>
+							<a href="#" class="image"><img src="images/wasp121.jpg" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Ti/V chemistry in WASP-121 b</h2>
+									<p>UV, optical and NIR spectroscopy of WASP-121 b shows strong variability, mainly attributed to metal oxide absorption.
+									We studied the high-resolution transmission spectrum with the HARPS spectrograph, and found absorption by various metals,
+									including vanadium and nickel. These observations shed light on the structure of the atmosphere, chemistry and condensation processes of gas-phase metals.</p>
 									<ul class="actions">
 										<li><a href="generic.html" class="button">Learn more</a></li>
 									</ul>
@@ -58,23 +98,13 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<a href="#" class="image"><img src="images/rf.png" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Machine Learning for high-resolution spectroscopy</h2>
+									<p>Classical statistical inference methods do not perform well on high-resolution exoplanet spectra due to their size,
+										the high model dimensionality and the prevalence of random noise. We developed a retrieval technique based on the
+										random forest algorithm that can robustly and rapidly retrieve fundamental parameters from high-resolution transit spectroscopy.</p>
 									<ul class="actions">
 										<li><a href="generic.html" class="button">Learn more</a></li>
 									</ul>
@@ -83,16 +113,28 @@
 						</section>
 					</section>
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
+
+
+
+
+
+
+
+
+
+				<!-- Three -->
+					<section id="three" class="wrapper style3 fade-up">
 						<div class="inner">
-							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<h2>Codes and Resources</h2>
+							<p>For obtaining, analyzing and understanding exoplanet observations, I make use of public resources and open-source software packages. In particular, I collaborate
+							with the developers of the <a href="https://github.com/exoclime">Exoclimes Simulations Platform</a>, a collection of codes designed for modeling exoplanet atmospheres.
+							In addition, I maintained a <a href="">github page</a> where my own analysis codes are hosted for public use and scrutiny.</p>
+
 							<div class="features">
 								<section>
 									<span class="icon solid major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<a href="https://github.com/exoclime/FastChem"><h3>Fast Chem</h3>
+									<p>Fast equilibrium chemistry solver written by Daniel Kitzmann.</p></a>
 								</section>
 								<section>
 									<span class="icon solid major fa-lock"></span>
@@ -100,24 +142,24 @@
 									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
 								</section>
 								<section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<span class="icon solid major fa-code"></span>
+									<a href="https://github.com/Hoeijmakers/StarRotator"><h3>Star Rotator</h3>
+									<p>An integrator that simulates the line profile of a rotating stellar during an exoplanet transit (i.e. the Doppler-Shadow).</p></a>
 								</section>
 								<section>
 									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Graphics</h3>
+									<p>Standard figures and graphics that I use in talks and posters.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<a href="https://ui.adsabs.harvard.edu/search/q=%5EHoeijmakers&sort=date%20desc%2C%20bibcode%20desc&p_=0"><h3>Bibliography</h3>
+									<p>My research papers on the ADS.</p></a>
 								</section>
 								<section>
 									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Tayph</h3>
+									<p>My main code package to.</p>
 								</section>
 							</div>
 							<ul class="actions">
@@ -126,13 +168,24 @@
 						</div>
 					</section>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
+
+
+
+
+
+
+
+
+
+
+
+				<!-- Four -->
+					<section id="four" class="wrapper style2 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
 							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 							<div class="split style1">
-								<section>
+								<!-- <section>
 									<form method="post" action="#">
 										<div class="fields">
 											<div class="field half">
@@ -152,31 +205,37 @@
 											<li><a href="" class="button submit">Send Message</a></li>
 										</ul>
 									</form>
-								</section>
+								</section> -->
 								<section>
 									<ul class="contact">
 										<li>
-											<h3>Address</h3>
-											<span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
-											USA</span>
+											<h3>Visiting Address</h3>
+											<span>Sölvegatan 27<br />
+											Lund<br />
+											Sweden</span>
 										</li>
+										<h3>Postal Address</h3>
+										<span>Jens Hoeijmakers<br />
+											Box 43<br />
+										  SE-221 00 Lund<br />
+										  Sweden</span>
+									</li>
 										<li>
 											<h3>Email</h3>
-											<a href="#">user@untitled.tld</a>
+											<a href="#">jens.hoeijmakers [at] astro.lu.se</a>
 										</li>
 										<li>
-											<h3>Phone</h3>
-											<span>(000) 000-0000</span>
+											<h3>Phone (department)</h3>
+											<span>+46 46 222 7300</span>
 										</li>
 										<li>
 											<h3>Social</h3>
 											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+												<li><a href="https://twitter.com/HoeijmakersJens" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+												<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+												<li><a href="https://github.com/Hoeijmakers" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+												<!-- <li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li> -->
 											</ul>
 										</li>
 									</ul>
@@ -191,7 +250,12 @@
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Jens Hoeijmakers 2020. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>Image credit:<br>
+						<a href="http://www.panoramicuniverse.com">Panoramic Universe</a><br>
+						Didier Descouens (<a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative Commons license</a>).<br>
+
+						</li>
 					</ul>
 				</div>
 			</footer>

@@ -3235,51 +3235,49 @@ input, select, textarea {
 
 			}
 
-			.wrapper.alt {
-				background-color: #261c3e;
-			}
+		.wrapper.alt {
+			background-color: #261c3e;
+		}
 
-			.wrapper.style1 {
-				background-color: #5e42a6;
-			}
+		.wrapper.style1 {
+			background-color: #5e42a6;
+		}
 
-			.wrapper.style1-alt {
-				background-color: #493382;
-			}
+		.wrapper.style1-alt {
+			background-color: #493382;
+		}
 
-			.wrapper.style2 {
-				/* background-color: #5052b5; */
-				background-color: #483D8B;
-			}
+		.wrapper.style2 {
+			background-color: #5052b5;
+		}
 
-			.wrapper.style2-alt {
-				background-color: #3e4094;
-			}
+		.wrapper.style2-alt {
+			background-color: #3e4094;
+		}
 
-			.wrapper.style3 {
-				/* background-color: #b74e91; */
-				background-color: #2F4F4F;
-			}
+		.wrapper.style3 {
+			background-color: #b74e91;
+		}
 
-			.wrapper.style3-alt {
-				background-color: #953d75;
-			}
+		.wrapper.style3-alt {
+			background-color: #953d75;
+		}
 
-			.wrapper.fullscreen {
-				display: -moz-flex;
-				display: -webkit-flex;
-				display: -ms-flex;
-				display: flex;
-				-moz-flex-direction: column;
-				-webkit-flex-direction: column;
-				-ms-flex-direction: column;
-				flex-direction: column;
-				-moz-justify-content: center;
-				-webkit-justify-content: center;
-				-ms-justify-content: center;
-				justify-content: center;
-				min-height: 100vh;
-			}
+		.wrapper.fullscreen {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-flex-direction: column;
+			-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			min-height: 100vh;
+		}
 
 			body.is-ie .wrapper.fullscreen {
 				height: 100vh;
