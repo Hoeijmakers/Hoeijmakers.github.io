@@ -1852,6 +1852,42 @@ input, select, textarea {
 		white-space: nowrap;
 	}
 
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.blackbutton {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: border-color 0.2s ease;
+		-webkit-transition: border-color 0.2s ease;
+		-ms-transition: border-color 0.2s ease;
+		transition: border-color 0.2s ease;
+		background-color: transparent;
+		border: solid 1px !important;
+		border-color: rgba(0, 0, 0, 0.15) !important;
+		border-radius: 3em;
+		color: #000000 !important;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 0.6em;
+		font-weight: bold;
+		height: calc(4.75em + 2px);
+		letter-spacing: 0.25em;
+		line-height: 4.75em;
+		outline: 0;
+		padding: 0 3.75em;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		white-space: nowrap;
+	}
+
+
 		input[type="submit"]:after,
 		input[type="reset"]:after,
 		input[type="button"]:after,
@@ -3022,7 +3058,8 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				/* background: rgba(49, 36, 80, 0.9); */
+				background: rgba(0, 0, 0, 1.0);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3240,7 +3277,8 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 {
-				background-color: #5e42a6;
+				/* background-color: #5e42a6; */
+				background-color: #808080;
 			}
 
 			.wrapper.style1-alt {
@@ -3251,7 +3289,7 @@ input, select, textarea {
 				/* background-color: #5052b5; */
 				/* background-color: #483D8B; */
 				/* background-color: #000000; */
-				background-color: #B8B8B8; /* Medium gray*/
+				background-color: #C2C2C2; /* Medium gray*/
 			}
 
 			.wrapper.style2-alt {
@@ -3263,6 +3301,18 @@ input, select, textarea {
 				/* background-color: #2F4F4F; */
 				background-color: #E2E2E2;
 			}
+			.wrapper.style4 {
+				/* background-color: #b74e91; */
+				/* background-color: #2F4F4F; */
+				background-color: #585858;
+			}
+
+			.wrapper.style5 {
+				/* background-color: #b74e91; */
+				/* background-color: #2F4F4F; */
+				background: #2E2D2F;
+			}
+
 
 			.wrapper.style3-alt {
 				background-color: #953d75;
@@ -3884,7 +3934,7 @@ input, select, textarea {
 		background-image: url("images/eagle.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
-		background-size: contain;
+		background-size: cover;
 	}
 
 		#intro p {
