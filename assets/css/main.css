@@ -105,6 +105,7 @@ input, select, textarea {
 		/* TURN THIS ON TO MAKE THE IMAGE VISIBLE IN THE SIDEBAR. */
 		background-attachment: fixed;
 		background-image: url("images/nebula.jpg");
+		background-image: url("images/eagle_inv.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
