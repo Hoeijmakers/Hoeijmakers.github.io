@@ -3462,8 +3462,8 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 {
-				/* background-color: #5e42a6; */
-				background-color: #808080;
+				/* background-color: #808080; */
+				background-color: hsl(207, 9%, 30%,70%);
 				/* Colour of codes and resources. */
 			}
 
@@ -3472,11 +3472,9 @@ input, select, textarea {
 			}
 
 			.wrapper.style2 {
-				/* background-color: #5052b5; */
-				/* background-color: #483D8B; */
-				/* background-color: #000000; */
 				/* Colour of the spotlights (research highlights) panel */
-				background-color: #C2C2C2; /* Medium gray*/
+				/* background-color: #C2C2C2; /* Medium gray*/
+				background-color: hsl(207, 9%, 80%,90%);
 			}
 
 			.wrapper.style2-alt {
@@ -3493,7 +3491,8 @@ input, select, textarea {
 				/* background-color: #b74e91; */
 				/* background-color: #2F4F4F; */
 				/* Colour of the contact panel */
-				background-color: #585858;
+				/* background-color: #585858; */
+				background-color: hsl(207, 10%, 20%,90%);
 			}
 
 			.wrapper.style5 {
