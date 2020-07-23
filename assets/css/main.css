@@ -3463,7 +3463,9 @@ input, select, textarea {
 
 			.wrapper.style1 {
 				/* background-color: #808080; */
-				background-color: hsl(207, 9%, 30%,70%);
+				background-color: rgb(70, 73, 77);
+				background-color: rgba(70, 73, 77,0.75);
+				background-color: hsl(207, 9%, 30%,75%);
 				/* Colour of codes and resources. */
 			}
 
@@ -3474,6 +3476,8 @@ input, select, textarea {
 			.wrapper.style2 {
 				/* Colour of the spotlights (research highlights) panel */
 				/* background-color: #C2C2C2; /* Medium gray*/
+				background-color: rgb(186, 196, 204);
+				background-color: rgba(186, 196, 204,0.9);
 				background-color: hsl(207, 9%, 80%,90%);
 			}
 
@@ -3485,13 +3489,16 @@ input, select, textarea {
 				/* background-color: #b74e91; */
 				/* background-color: #2F4F4F; */
 				/* Colour of the Research Profile panel */
-				background-color: #E2E2E2;
+				background-color: #f0f0f0;
 			}
 			.wrapper.style4 {
 				/* background-color: #b74e91; */
 				/* background-color: #2F4F4F; */
 				/* Colour of the contact panel */
 				/* background-color: #585858; */
+
+				background-color: rgb(46, 49, 51);
+				background-color: rgba(46, 49, 51,0.9);
 				background-color: hsl(207, 10%, 20%,90%);
 			}
 
