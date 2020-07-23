@@ -172,6 +172,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		text-align: justify;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3243,7 +3244,7 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			padding: 5em 5em 3em 5em ;
+			padding: 10em 10em 6em 10em ;
 			max-width: 100%;
 			width: 75em;
 		}
@@ -3251,7 +3252,7 @@ input, select, textarea {
 			@media screen and (max-width: 1680px) {
 
 				.wrapper > .inner {
-					padding: 4em 4em 2em 4em ;
+					padding: 8em 8em 4em 8em ;
 				}
 
 			}
